@@ -1,0 +1,27 @@
+*transform_html_to_styled_components.txt*	Switch segments of text with predefined replacements
+
+================================================================================================
+CONTENTS                                          *transform-html-to-styled-components-contents*
+
+  Installation................................: |transform-html-to-styled-components-installation|
+  Usage.......................................: |transform-html-to-styled-components-usage|
+================================================================================================
+INSTALLATION                                  *transform_html_to_styled_components-installation*
+
+There are several ways to install this plugin using your favorite package
+manager. The simpler and recommended way is to use the default vim8 package
+manager by just cloning the plugin repository into your runtimepath.
+>
+  git clone git://github.com/cherryramatisdev/transform_html_to_styled_components.git ~/.vim/pack/plugins/opt/transform_html_to_styled_components
+>
+>
+================================================================================================
+USAGE                                                *transform-html-to-styled-components-usage*
+
+The main entry point of the plugin is a single command, |:HTMLToStyledComponents|. When the command is executed, the plugin will input for a component name and then will replace your current tag using the pattern *S.YourComponentName* as well as filling a *styles.ts* file on a vertical split with the necessary code for a styled components using the original tag you were in.
+
+The sample video below can be used for a more in depth demo:
+
+>
+ https://asciinema.org/a/603708
+>
